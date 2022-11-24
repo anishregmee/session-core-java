@@ -1,13 +1,24 @@
 package day1;
 
 public class Laptop {
-        //    state
+
+    //state
 
         //    brand
         //    color
         //    price
         //    os
         //    ram
-        //    harddrive
+        //    hard drive
         //    warranty
+
+    //behaviour(ecommerce)
+
+        //    select to zoom pic
+        //    see delivery date
+        //    price
+        //    save and continue shopping
+        //    read reviews
+        //    compare price
+        //    see full features
 }
