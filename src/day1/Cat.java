@@ -4,10 +4,14 @@ public class Cat {
 
     // states
 
-    //    color
-    //    breed
-    //    size
-    //    age
+    //    color (String)
+    //    breed (String)
+    //    height (float)
+    //    weight (float)
+    //    ageUnit (String)
+    //    age  (int) (months/years)
+    //    pic (String)
+    //    name (String)
 
     // behaviour (informative)
 

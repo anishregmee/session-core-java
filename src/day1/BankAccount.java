@@ -3,13 +3,13 @@ package day1;
 public class BankAccount {
     //states
 
-    // account number
-    // account owner
-    // balance
-    // statement
-    // address
-    // opening date
-    // opening branch
+    // account number (String)
+    // account owner (String)
+    // balance (double)
+    // statement (Array)
+    // address (String)
+    // opening date (String)
+    // opening branch (String)
 
     //Behaviour(bank application)
 

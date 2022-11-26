@@ -4,10 +4,14 @@ public class MobilePhone {
 
     //    states
 
-    //    os
-    //    color
-    //    price
-    //    size
+    //    os (String)
+    //    color (String)
+    //    price (float)
+    //    screen size (float)
+    //    brand (short)
+    //    battery (String)
+    //    storageUnit (String) (GB/TB)
+    //    storage (int)
 
     //    behaviour(ecommerce)
     //    buy

@@ -4,13 +4,13 @@ public class Laptop {
 
     //state
 
-        //    brand
-        //    color
-        //    price
-        //    os
-        //    ram
-        //    hard drive
-        //    warranty
+        //    brand (String)
+        //    color (String)
+        //    price (float)
+        //    os (String)
+        //    ram (byte)
+        //    hard drive (String) (1 gb)
+        //    warranty (String) (1 year/ 2 year)
 
     //behaviour(ecommerce)
 

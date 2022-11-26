@@ -4,13 +4,13 @@ public class Student {
 
     //    states
 
-    //    full name
-    //    faculty
-    //    roll number
-    //    address
-    //    dob
-    //    class
-    //    section
+    //    full name (String)
+    //    faculty (String)
+    //    roll number (long)
+    //    address (String)
+    //    dob (Date)
+    //    class (int)
+    //    section (char)
 
     //    behaviour()
 
