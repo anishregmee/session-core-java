@@ -3,16 +3,16 @@ package day1;
 public class Vehicle {
     //states
 
-        //model
-        //cylinder
-        //groundClearance
-        //engineType(eg: electric/petrol)
-        //color
-        //price
-        //availability
-        //warranty
-        //total seating
-        //transmission
+        //model (String)
+        //cylinder (int)
+        //groundClearance (float)
+        //engineType(eg: electric/petrol) (String)
+        //color (String)
+        //price (float)
+        //availability (Date)
+        //availability(yes/no) (boolean)
+        //warranty (String) (2 years)
+        //total seating (byte)
 
     // behaviour (ecommerce)
 

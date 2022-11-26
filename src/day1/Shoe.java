@@ -4,12 +4,13 @@ public class Shoe {
 
     // state
 
-        //    price
-        //    size
-        //    color
-        //    brand
-        //    discount %
-        //    availability
+        //    price (float)
+        //    size (float)
+        //    color (String)
+        //    brand (String)
+        //    discount % (byte)
+        //    availability (yes/no) (boolean)
+        //    availabilityDate (Date)
 
     // behaviour (ecommerce)
         //    select fit (regular/extra wide)
