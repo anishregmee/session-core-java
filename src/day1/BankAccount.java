@@ -1,15 +1,19 @@
 package day1;
 
+import java.util.Arrays;
+
 public class BankAccount {
     //states
 
-    // account number (String)
-    // account owner (String)
-    // balance (double)
-    // statement (Array)
-    // address (String)
-    // opening date (String)
-    // opening branch (String)
+    String accountNumber;
+    String accountOwner;
+    double balance;
+//    Arrays statement;
+    String address;
+    String openingDate;
+    String openingBranch;
+    String socialSecurityNumber;
+    final String BANK_NAME = "Jp Morgan Chase";
 
     //Behaviour(bank application)
 
