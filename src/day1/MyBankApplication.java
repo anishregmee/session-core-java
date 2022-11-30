@@ -12,7 +12,6 @@ public class MyBankApplication {
         anishAccount.setOpeningDate("11/23/2020");
         anishAccount.setOpeningBranch("Fort Worth");
         anishAccount.setSocialSecurityNumber("111222333");
-//            anishAccount.bankName = "Jp Morgan Chase";
 
         BankAccount rameshAccount = new BankAccount();
         rameshAccount.setAccountNumber("67890");
@@ -22,11 +21,11 @@ public class MyBankApplication {
         rameshAccount.setOpeningDate("11/28/2020");
         rameshAccount.setOpeningBranch("Decatur");
         rameshAccount.setSocialSecurityNumber("333222111");
-//            rameshAccount.bankName = "Bank of America";
 
 
         System.out.println(anishAccount.getAccountNumber());
         System.out.println(rameshAccount.getAccountNumber());
+        System.out.println(rameshAccount.getBANK_NAME());
         System.out.println("testing passed");
 
 
