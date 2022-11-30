@@ -5,28 +5,28 @@ public class MyBankApplication {
 
         BankAccount anishAccount = new BankAccount();
 
-        anishAccount.accountNumber = "123456789";
-        anishAccount.accountOwner = "Anish Regmee";
-        anishAccount.address = "123456789";
-        anishAccount.balance = 55000;
-        anishAccount.openingDate = "11/28/2022";
-        anishAccount.openingBranch = "Fort Worth";
-        anishAccount.socialSecurityNumber = "111222333";
+        anishAccount.setAccountNumber("12345");
+        anishAccount.setAccountOwner("Anish Regmee");
+        anishAccount.setAddress("North Richland Hills");
+        anishAccount.setBalance(7878);
+        anishAccount.setOpeningDate("11/23/2020");
+        anishAccount.setOpeningBranch("Fort Worth");
+        anishAccount.setSocialSecurityNumber("111222333");
 //            anishAccount.bankName = "Jp Morgan Chase";
 
         BankAccount rameshAccount = new BankAccount();
-        rameshAccount.accountNumber = "123456789";
-        rameshAccount.accountOwner = "Ramesh Tamang";
-        rameshAccount.address = "8989";
-        rameshAccount.balance = 5000;
-        rameshAccount.openingDate = "11/28/2020";
-        rameshAccount.openingBranch = "Decatur";
-        rameshAccount.socialSecurityNumber = "333222111";
+        rameshAccount.setAccountNumber("67890");
+        rameshAccount.setAccountOwner("Ramesh Tamang");
+        rameshAccount.setAddress("8989");
+        rameshAccount.setBalance(5000);
+        rameshAccount.setOpeningDate("11/28/2020");
+        rameshAccount.setOpeningBranch("Decatur");
+        rameshAccount.setSocialSecurityNumber("333222111");
 //            rameshAccount.bankName = "Bank of America";
 
 
-        System.out.println(anishAccount.accountNumber);
-        System.out.println(rameshAccount.accountNumber);
+        System.out.println(anishAccount.getAccountNumber());
+        System.out.println(rameshAccount.getAccountNumber());
         System.out.println("testing passed");
 
 
