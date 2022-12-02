@@ -100,6 +100,7 @@ public class BankAccount {
 
     // transfer funds
     public boolean transferFunds(BankAccount toAccount, BankAccount fromAccount, double amountToBeTransfered){
+        // some logic to transfer balance
         return true;
     }
 
