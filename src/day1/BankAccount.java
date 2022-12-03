@@ -9,7 +9,7 @@ public class BankAccount {
     private String accountOwner;
     private double balance;
 //    Arrays statement;
-    private String address;
+    private Address address;
     private String openingDate;
     private String openingBranch;
     private String socialSecurityNumber;
@@ -40,11 +40,11 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return this.address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 
