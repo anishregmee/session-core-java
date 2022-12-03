@@ -7,7 +7,7 @@ public class MyBankApplication {
 
         anishAccount.setAccountNumber("12345");
         anishAccount.setAccountOwner("Anish Regmee");
-        anishAccount.setAddress("North Richland Hills");
+//        anishAccount.setAddress("North Richland Hills");
         anishAccount.setBalance(7878);
         anishAccount.setOpeningDate("11/23/2020");
         anishAccount.setOpeningBranch("Fort Worth");
@@ -16,7 +16,7 @@ public class MyBankApplication {
         BankAccount rameshAccount = new BankAccount();
         rameshAccount.setAccountNumber("67890");
         rameshAccount.setAccountOwner("Ramesh Tamang");
-        rameshAccount.setAddress("8989");
+//        rameshAccount.setAddress("8989");
         rameshAccount.setBalance(5000);
         rameshAccount.setOpeningDate("11/28/2020");
         rameshAccount.setOpeningBranch("Decatur");
