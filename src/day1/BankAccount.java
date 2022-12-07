@@ -15,6 +15,42 @@ public class BankAccount {
     private String socialSecurityNumber;
     private final String BANK_NAME = "Jp Morgan Chase";
 
+    String licenceNumber;
+
+    public BankAccount() {}
+
+    public BankAccount(String accountNumber, String accountOwner, double balance, Address address, String openingDate, String openingBranch, String socialSecurityNumber) {
+        this.accountNumber = accountNumber;
+        this.accountOwner = accountOwner;
+        this.balance = balance;
+        this.address = address;
+        this.openingDate = openingDate;
+        this.openingBranch = openingBranch;
+        this.socialSecurityNumber = socialSecurityNumber;
+    }
+
+    public BankAccount(String accountNumber, String accountOwner, double balance, Address address, String openingDate, String openingBranch, String socialSecurityNumber, String licenceNumber) {
+        this.accountNumber = accountNumber;
+        this.accountOwner = accountOwner;
+        this.balance = balance;
+        this.address = address;
+        this.openingDate = openingDate;
+        this.openingBranch = openingBranch;
+        this.socialSecurityNumber = socialSecurityNumber;
+        this.licenceNumber = licenceNumber;
+    }
+
+    public BankAccount(String accountNumber, String abhijeet, double balance, String city, String openingDate, String haltom, String socialSecurityNumber) {
+        this.accountNumber = accountNumber;
+        this.accountOwner = accountOwner;
+        this.balance = balance;
+        this.address = address;
+        this.openingDate = openingDate;
+        this.openingBranch = openingBranch;
+        this.socialSecurityNumber = socialSecurityNumber;
+        this.address.setCity(city);
+    }
+
     //getters and setters
     public String getAccountNumber() {
         return this.accountNumber;
