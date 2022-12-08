@@ -1,6 +1,8 @@
 package day1;
 
 import java.util.Arrays;
+import java.util.Objects;
+import java.util.UUID;
 
 public class BankAccount {
     //states
@@ -21,7 +23,7 @@ public class BankAccount {
 
     public BankAccount(String accountNumber, String accountOwner, double balance, Address address, String openingDate, String openingBranch, String socialSecurityNumber) {
         this.accountNumber = accountNumber;
-        this.accountOwner = accountOwner;
+        this.accountOwner = Objects.requireNonNullElse(accountOwner,"Guest-" + UUID.randomUUID());
         this.balance = balance;
         this.address = address;
         this.openingDate = openingDate;
