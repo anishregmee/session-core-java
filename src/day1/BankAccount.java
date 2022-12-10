@@ -113,12 +113,14 @@ public class BankAccount {
     //Behaviour(bank application)
 
     //check balance
-    public double checkBalance(BankAccount account){
-        return account.balance;
+    public double checkBalance(){
+
+        return this.balance;
     }
     //statements
-    public void statement(BankAccount accountNumber, String startingDate, String endingDate){
+    public String statement(String startingDate, String endingDate){
         //write your logic
+        return this.accountNumber;
     }
 
     //deposit
@@ -143,8 +145,10 @@ public class BankAccount {
     }
 
     //link credit card
-    public void linkCreditCard(BankAccount accountNumber, String creditCardNumber){
+    public void linkCreditCard(String creditCardNumber){
         //write your logic here...
+
+        // this le chai jun function le yaslai call garirako chha tyasaiko object bujauchha
     }
 
 }

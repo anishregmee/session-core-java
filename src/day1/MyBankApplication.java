@@ -33,8 +33,9 @@ public class MyBankApplication {
         BankAccount abhijeet = new BankAccount("0000", "abhijeet", 200.8, address.getCity(),
                 "12/3/2020", "haltom","12234321");
 
-
-
+        abhijeet.checkBalance();
+        abhijeet.linkCreditCard("12345");
+        abhijeet.statement("12/2/2020","12/2/2022");
 
     }
 }
