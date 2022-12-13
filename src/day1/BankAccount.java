@@ -7,7 +7,8 @@ import java.util.UUID;
 public class BankAccount {
     //states
 
-    private String accountNumber;
+    //you can assign value like this to resolve null point exception
+    private String accountNumber = "";
     private String accountOwner;
     private double balance;
 //    Arrays statement;
@@ -32,13 +33,14 @@ public class BankAccount {
     }
 
     public BankAccount(String accountNumber, String accountOwner, double balance, Address address, String openingDate, String openingBranch, String socialSecurityNumber, String licenceNumber) {
-        this.accountNumber = accountNumber;
-        this.accountOwner = accountOwner;
-        this.balance = balance;
-        this.address = address;
-        this.openingDate = openingDate;
-        this.openingBranch = openingBranch;
-        this.socialSecurityNumber = socialSecurityNumber;
+//        this.accountNumber = accountNumber;
+//        this.accountOwner = accountOwner;
+//        this.balance = balance;
+//        this.address = address;
+//        this.openingDate = openingDate;
+//        this.openingBranch = openingBranch;
+//        this.socialSecurityNumber = socialSecurityNumber;
+        this(accountNumber,accountOwner,balance,address,openingDate,openingBranch,socialSecurityNumber);
         this.licenceNumber = licenceNumber;
     }
 
