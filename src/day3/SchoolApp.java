@@ -6,6 +6,8 @@ public class SchoolApp {
         Student anish = new Student();
         anish.setAge("23");
         anish.setName("Anish");
+        anish.setGender(Gender.MALE);
+        System.out.println(anish.getGender().toString());
 
         Teacher ramesh = new Teacher();
         ramesh.setAge("37");
