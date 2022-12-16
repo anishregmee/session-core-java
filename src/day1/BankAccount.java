@@ -8,6 +8,8 @@ public class BankAccount {
     //states
 
     //you can assign value like this to resolve null point exception
+
+    private AccountType accountType;
     private String accountNumber = "";
     private String accountOwner;
     private double balance;
@@ -52,7 +54,7 @@ public class BankAccount {
         this.openingDate = openingDate;
         this.openingBranch = openingBranch;
         this.socialSecurityNumber = socialSecurityNumber;
-        this.address.setCity(city);
+//        this.address.setCity(city);
     }
 
     //getters and setters
@@ -110,6 +112,14 @@ public class BankAccount {
 
     public String getBANK_NAME() {
         return this.BANK_NAME;
+    }
+
+    public AccountType getAccountType() {
+        return accountType;
+    }
+
+    public void setAccountType(AccountType accountType) {
+        this.accountType = accountType;
     }
 
     //Behaviour(bank application)
