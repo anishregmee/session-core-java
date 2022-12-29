@@ -7,7 +7,7 @@ public class Marksheet {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("enter student\'s name");
-        String studentName = scanner.next();
+        String studentName = scanner.nextLine();
 
         System.out.println("enter marks obtained in maths");
         int markMaths = scanner.nextInt();
@@ -28,10 +28,10 @@ public class Marksheet {
 
         float percentage = (grandTotal/500) * 100;
 
-        String message = String.format("congratulation, %s has obtained %f percentage", studentName, percentage);
+        String formattedPercentage = String.format("%.2f", percentage);
+
+        String message = String.format("congratulation, %s has obtained %s percentage", studentName, formattedPercentage);
 
         System.out.println(message);
-
-
     }
 }
