@@ -2,11 +2,11 @@ package day16;
 
 import java.time.LocalDate;
 
-public class Manger extends Employee{
+public sealed class Manager extends Employee permits Cleaner{
 
     private double bonus;
 
-    public Manger(String name, LocalDate hireDate, double salary, double bonus) {
+    public Manager(String name, LocalDate hireDate, double salary, double bonus) {
         super(name, hireDate, salary);
         this.bonus = bonus;
     }
@@ -25,5 +25,9 @@ public class Manger extends Employee{
     public String getDescription() {
         String description = "i am the manager";
         return description;
+    }
+
+    public void fireEmploye(){
+
     }
 }
