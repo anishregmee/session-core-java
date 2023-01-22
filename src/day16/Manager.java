@@ -27,6 +27,8 @@ public sealed class Manager extends Employee permits Cleaner{
         return description;
     }
 
+
+
     public void fireEmploye(){
 
     }
