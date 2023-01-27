@@ -25,6 +25,8 @@ public class ArraySorting {
 //                return o2.getAge() - o1.getAge();
 //            }
 //        });
+
+//        Arrays.sort(students, (o1, o2) -> o2.getAge() - o2.getAge());
         System.out.println(Arrays.toString(students));
 
 
