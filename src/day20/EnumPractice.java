@@ -6,7 +6,6 @@ import java.util.EnumSet;
 public enum EnumPractice {
 
 //    yasmaa error chha find it
-
     public static void main(String[] args) {
 //        ArrayList<Weekdays> weekdays = new ArrayList<>();
 //        weekdays.add(Weekdays.SUNDAY);
@@ -16,7 +15,6 @@ public enum EnumPractice {
 //        weekdays.add(Weekdays.THURSDAY);
 //        weekdays.add(Weekdays.FRIDAY);
 //        weekdays.add(Weekdays.SATURDAY);
-//
 //        System.out.println(weekdays);
 
         EnumSet<Weekdays> allDays = EnumSet.allOf(Weekdays.class);
